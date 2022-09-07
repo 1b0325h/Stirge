@@ -1,6 +1,6 @@
+import os
 import random
 import string
-import os
 
 from colorama import Fore, init
 import fire
@@ -38,5 +38,6 @@ def Stirge(dst=None):
 
 
 
-init(autoreset=True)
-fire.Fire(Stirge)
+def main():
+    init(autoreset=True)
+    fire.Fire(Stirge)
